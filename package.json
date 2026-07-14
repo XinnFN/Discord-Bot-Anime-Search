@@ -1,0 +1,19 @@
+{
+  "name": "discord-anime-bot",
+  "version": "1.0.0",
+  "description": "Bot Discord untuk mencari dan melihat informasi anime",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": ["discord", "bot", "anime", "myanimelist"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "axios": "^1.6.7"
+  }
+}
